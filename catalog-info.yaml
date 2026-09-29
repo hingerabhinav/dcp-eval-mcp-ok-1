@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: dcp-eval-mcp-ok-1
+  description: Python 3.11 microservice created via the DCP Golden Path
+  tags:
+    - python
+    - microservice
+  annotations:
+    github.com/project-slug: hingerabhinav/dcp-eval-mcp-ok-1
+spec:
+  type: service
+  lifecycle: experimental
+  owner: harness
